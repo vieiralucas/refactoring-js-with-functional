@@ -1,0 +1,28 @@
+{
+  "name": "refactoring-javascript",
+  "version": "1.0.0",
+  "description": "A code example so I can make a talk about refactoring",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require test/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vieiralucas/refactoring-javascript.git"
+  },
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralucas/refactoring-javascript/issues"
+  },
+  "homepage": "https://github.com/vieiralucas/refactoring-javascript#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
+  }
+}
