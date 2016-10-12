@@ -1,5 +1,5 @@
 {
-  "name": "refactoring-javascript",
+  "name": "refactoring-js-with-functional",
   "version": "1.0.0",
   "description": "A code example so I can make a talk about refactoring",
   "main": "index.js",
