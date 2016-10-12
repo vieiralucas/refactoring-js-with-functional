@@ -1,7 +1,7 @@
 {
   "name": "refactoring-js-with-functional",
   "version": "1.0.0",
-  "description": "A code example so I can make a talk about refactoring",
+  "description": "This is the repository for my talk on refactoring js with functional programming ideas",
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require test/setup.js"
