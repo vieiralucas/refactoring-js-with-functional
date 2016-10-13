@@ -5,14 +5,14 @@ const isInRange = (date, startDate, endDate) => date >= startDate && date <= end
 const itemTotal = item => item.product.price * item.quantity;
 
 // sums items
-const itemsAdder = (acc, item) => acc + itemTotal(item);
+const itemsSum = (acc, item) => acc + itemTotal(item);
 
 // sums oders
-const ordersAdder = (acc, order) => acc + order.items.reduce(itemsAdder, 0);
+const ordersSum = (acc, order) => acc + order.items.reduce(itemsSum, 0);
 
 const sumOrders = (orders, startDate, endDate) => orders
   .filter(({ date }) => isInRange(date, startDate, endDate))
-  .reduce(ordersAdder, 0);
+  .reduce(ordersSum, 0);
 
 export default sumOrders;
 
